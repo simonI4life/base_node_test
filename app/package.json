@@ -1,0 +1,34 @@
+{
+  "name": "openaidcare",
+  "version": "1.0.0",
+  "description": "Conexion entre base de datos y aplicacion para cpe",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --ignore logs/",
+    "start": "node src/index.js",
+    "test": "mocha src/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Equipo-i4life/cpe-api.git"
+  },
+  "keywords": [
+    "cpe",
+    "api",
+    "nodejs",
+    "trastornoSueno"
+  ],
+  "author": "Jorge Marrón & Simon Lopez- i4life",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Equipo-i4life/cpe-api/issues"
+  },
+  "homepage": "https://github.com/Equipo-i4life/cpe-api#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.19"
+  }
+}
